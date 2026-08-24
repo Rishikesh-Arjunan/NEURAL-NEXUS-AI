@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NEURAL NEXUS: AI WORLD</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <div>
+            <h1>🧠 NEURAL NEXUS</h1>
+            <p>AI WORLD // FUTURE SIMULATION</p>
+        </div>
+
+        <div class="online">
+            ● AI ONLINE
+        </div>
+    </header>
+
+
+    <!-- DASHBOARD -->
+
+    <section class="dashboard">
+
+        <div class="stat">
+            <span>⚡ ENERGY</span>
+            <strong id="energy">100</strong>
+        </div>
+
+        <div class="stat">
+            <span>⭐ XP</span>
+            <strong id="xp">0</strong>
+        </div>
+
+        <div class="stat">
+            <span>🎯 LEVEL</span>
+            <strong id="level">1</strong>
+        </div>
+
+        <div class="stat">
+            <span>🧠 AI SCORE</span>
+            <strong id="aiScore">0</strong>
+        </div>
+
+    </section>
+
+
+    <!-- GAME -->
+
+    <section class="game">
+
+        <div class="world">
+
+            <div class="world-title">
+                🌐 NEURAL WORLD
+            </div>
+
+            <div id="mission">
+                Click START MISSION to enter the AI world.
+            </div>
+
+            <div class="target">
+                🎯 AI TARGET:
+                <span id="target">
+                    WAITING...
+                </span>
+            </div>
+
+        </div>
+
+
+        <h2>⚡ Choose Your AI Decision</h2>
+
+        <div class="choices">
+
+            <button onclick="makeDecision('ATTACK')">
+                ⚔️ ATTACK
+            </button>
+
+            <button onclick="makeDecision('DEFEND')">
+                🛡️ DEFEND
+            </button>
+
+            <button onclick="makeDecision('SCAN')">
+                🔍 SCAN
+            </button>
+
+            <button onclick="makeDecision('HACK')">
+                💻 HACK
+            </button>
+
+        </div>
+
+
+        <div class="actions">
+
+            <button
+                class="start"
+                onclick="startMission()">
+                🚀 START MISSION
+            </button>
+
+            <button
+                class="ai"
+                onclick="aiPredict()">
+                🤖 AI PREDICT
+            </button>
+
+        </div>
+
+
+        <div id="result">
+            System ready...
+        </div>
+
+    </section>
+
+
+    <footer>
+        NEURAL NEXUS • AI FUTURE SIMULATION
+    </footer>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
