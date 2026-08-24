@@ -1,4 +1,4 @@
-# 🧠 Neural Nexus AI
+# 🧠 Neural Nexus AI GAME
 
 ### 🌐 AI World • Future Simulation • Strategic Decisions
 
